@@ -20,6 +20,7 @@ class Celebrity:
 kevinHart = Celebrity("Kevin Hart", 40, "07-06-1979", "1.63m", "standup comedian & actor")
 
 
+
 my_bot = ChatBot(name='PyBot', read_only=True,
                  logic_adapters=['chatterbot.logic.MathematicalEvaluation',
                                  'chatterbot.logic.BestMatch'])
